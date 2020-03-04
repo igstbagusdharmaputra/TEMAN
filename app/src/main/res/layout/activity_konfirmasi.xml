@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/gradient"
+    tools:context="com.ilkomhotspot.teman.Splash"
+    >
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="60"
+        android:fontFamily="@font/comfortaa"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apa Anda baik-baik saja? "
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/comfortaa"
+        android:layout_marginTop="140dp"
+        android:textSize="24dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jika Anda tidak menekan tombol dalam\nbeberapa menit, lokasi Anda akan terkirim\notomatis kepada orang kepercayaan Anda"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/comfortaa"
+        android:layout_marginTop="180dp"
+        android:textAlignment="center"
+        android:textSize="14dp"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        >
+        <ImageView
+            android:id="@+id/yes"
+            android:clickable="true"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:backgroundTint="@color/red"
+            android:background="@drawable/button"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saya sedang terjatuh"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="16dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        >
+        <ImageView
+            android:id="@+id/no"
+            android:clickable="true"
+            android:layout_width="275dp"
+            android:layout_height="45dp"
+            android:backgroundTint="@color/green"
+            android:background="@drawable/button"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saya baik-baik saja"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="16dp"
+            />
+    </RelativeLayout>
+</RelativeLayout>

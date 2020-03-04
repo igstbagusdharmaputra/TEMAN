@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "41666908606",
+    "firebase_url": "https://teman-ilkomhotspot.firebaseio.com",
+    "project_id": "teman-ilkomhotspot",
+    "storage_bucket": "teman-ilkomhotspot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41666908606:android:6b4523527b08b7bb",
+        "android_client_info": {
+          "package_name": "com.ilkomhotspot.teman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41666908606-jifmetlnakdt0fouatt85i0v2vtf7pfn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ilkomhotspot.teman",
+            "certificate_hash": "10ad32e0f3f548066cfa6334ff7370c1b62bea79"
+          }
+        },
+        {
+          "client_id": "41666908606-lt8mnmoivirfno6ln5rqh0jpq010mfvc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ilkomhotspot.teman",
+            "certificate_hash": "4a1699b7d502ac8e94ebb97b4b22797043e5e2cb"
+          }
+        },
+        {
+          "client_id": "41666908606-s814liqrfeaq77kv7bd50o3ngap6nhg9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEBBU57kUqiQRy0l1tBiP88tHG8mcUf6E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41666908606-s814liqrfeaq77kv7bd50o3ngap6nhg9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

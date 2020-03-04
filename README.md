@@ -1,0 +1,1 @@
+TEMAN atau singkatan dari Integrated Human Fall Detection merupakan aplikasi berbasis mobile yang digunakan untuk mendeteksi orang yang jatuh. Aplikasi ini juga memberikan notifikasi dan lokasi dari orang yang jatuh tersebut kepada pengawas atau bisa juga disebut dengan orang kepercayaan dari orang yang jatuh tersebut.
